@@ -3,7 +3,7 @@
     "description": "A php agent for Elastic APM v2 Intake API",
     "license": "MIT",
     "require" : {
-        "php" : ">= 7.1",
+        "php" : ">= 8.0",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
         "php-http/discovery": "^1.7",
@@ -16,7 +16,7 @@
         "php-http/guzzle6-adapter": "^2.0",
         "http-interop/http-factory-guzzle": "^1.0",
         "justinrainbow/json-schema": "^5.2",
-        "psr/log": "^1.1"
+        "psr/log": "^3.0"
     },
     "suggest": {
         "php-http/guzzle6-adapter": "PSR-18 compatible Guzzle6 adapter",
